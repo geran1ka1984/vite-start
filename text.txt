@@ -1,0 +1,15 @@
+Для шаблона с react перейди в ветку react с помощью команды git switch react
+Для шаблона с js перейди в ветку js с помощью команды git switch js
+
+git init
+git add .
+git commit -m 'page select temlate'
+
+git config --global user.name 'geran1ka1984'
+git config --global user.email 'pantera_vrn@mail.ru'
+git config --global core.safecrlf warn
+git config --global core.autocrlf true
+
+git remote add origin https://github.com/geran1ka1984/vite-start.git
+git branch -M main
+git push -u origin main
