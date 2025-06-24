@@ -1,0 +1,104 @@
+@use "./variables" as *;
+@use "./fonts" as *;
+@use "./mixin" as *;
+
+:root {
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: 1.2;
+  color: $main-ligth;
+  background-color: $secondary-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+input,
+button,
+template {
+  font: inherit;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.big-container {
+  max-width: 1820px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
