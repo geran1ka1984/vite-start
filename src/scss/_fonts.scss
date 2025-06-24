@@ -1,0 +1,13 @@
+@use "./mixin" as *;
+
+@include font(NunitoSans, 300);
+@include font(NunitoSans, 400);
+@include font(NunitoSans, 500);
+@include font(NunitoSans, 800);
+@include font(NunitoSans, 900);
+@include font(WorkSans, 300);
+@include font(WorkSans, 400);
+@include font(WorkSans, 500);
+@include font(WorkSans, 800);
+@include font(Inter, 400);
+@include font(Roboto, 400);
